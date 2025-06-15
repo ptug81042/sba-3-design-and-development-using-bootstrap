@@ -4,6 +4,8 @@
 
 ## Overview
 
+Here's the link to the Figma Design: [Bento Grid Figma Design](https://www.figma.com/design/uqmGglrHKeea5KIWuUq0W4/bento-grid-main?m=auto&t=6Z5qqTv1e90Hk9gP-6)
+
 This project is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). The goal was to recreate a visually engaging, responsive bento grid layout that closely matches the provided desktop and mobile designs. The challenge emphasizes CSS Grid and responsive design skills.
 
 ### Approach & Customizations
