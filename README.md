@@ -2,15 +2,25 @@
 
 ![Design preview for the Bento grid coding challenge](./preview.jpg)
 
-## Welcome! 👋
+## Overview
 
-Here's the link to the Figma design file for this challenge: [Bento grid design](https://www.figma.com/design/uqmGglrHKeea5KIWuUq0W4/bento-grid-main?m=auto&t=21GunjZ0OoTI4Hry-6).
+This project is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). The goal was to recreate a visually engaging, responsive bento grid layout that closely matches the provided desktop and mobile designs. The challenge emphasizes CSS Grid and responsive design skills.
 
-Thanks for checking out this front-end coding challenge.
+### Approach & Customizations
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- **Tech Stack:** The project uses semantic HTML5 and [Tailwind CSS](https://tailwindcss.com/) for utility-first styling and rapid prototyping.
+- **Layout:** The desktop layout is built with CSS Grid using Tailwind's grid utilities, with custom column and row spans to match the Figma design as closely as possible.
+- **Responsiveness:** The layout adapts to different screen sizes, stacking the left column cards at the bottom on mobile as specified in the challenge.
+- **Assets:** All images and icons are referenced with their exact filenames from the `/assets/images` folder.
+- **Customizations:** Some fine-tuning was done with Tailwind's custom classes and a few additional CSS rules to achieve pixel-perfect alignment and spacing.
 
-**To do this challenge, you need a good understanding of HTML and CSS.**
+## Reflection
+
+During this project, one of the main challenges I encountered was replicating the complex bento grid layout from the Figma design using only CSS Grid and utility classes. Achieving the exact placement, sizing, and proportions of each card required careful planning of grid columns, rows, and spans. Another challenge was ensuring the layout remained fully responsive, especially with the requirement that the two left column cards move to the bottom on mobile screens. Matching the exact spacing, font sizes, and proportions from a static image also required a lot of iteration and visual comparison.
+
+To solve these challenges, I used Tailwind CSS for rapid prototyping and custom utility classes for precise control. I defined explicit grid column and row spans for each card on desktop and used Tailwind's responsive classes to adjust the layout for smaller screens. I frequently referenced the Figma design to match font sizes, colors, and spacing as closely as possible. For responsiveness, I leveraged Tailwind's breakpoint utilities to rearrange the grid and stack elements as needed.
+
+If given more time, I would further refine the grid for even more pixel-perfect accuracy and add accessibility improvements such as better alt text and keyboard navigation. I would also explore using Tailwind's plugin system for more custom utilities and consider adding subtle transitions or animations for a smoother user experience.
 
 ## The challenge
 
